@@ -1,21 +1,21 @@
-# serverless-step-function
+# I  MISTAKENLY DELETED A STATE MACHINE ON A CLIENT TEST .. OH CRAP
 
 <img src="image/albert-einstein.jpg">
 
-I intended to delete log on step machine console, but mistaken delete a state machine on client test. Shoot... 
+I intended to delete the log on the step machine console but mistakenly deleted a state machine on the client test. Shoot... 
 
-I tried to rerun existing pipeline, it doesn't work because that state machine no longer exist.
+I tried to rerun the existing pipeline, but it doesn’t work because it no longer exists.
 
-I tried to modified state machine defination, redeploy, it is still erorring state machine no longer exist so it can't update new changes.
+I tried to modify the state machine definition and redeploy, but it is still erroring state machine no longer exists, so it can’t update new changes.
 
-I told my manager and they fixed but I did not ask how they did it.
+I told my manager, and they fixed it, but I did not ask how they did it.
 
-That led me to write this repo and feed my curiosity. And, Finally, I am able to fix this, and here what I did.
+That led me to write this repo and feed my curiosity. And finally, I can fix this, and here is what I did.
 
-1. Change name of a state machine, push to master, and wait until cloud formation create a brand new state machine.
-2. Rename that same state machine, push to master, and redeploy it.
-3. That's it. You got your exact same state machine before.
+1. Change the name of a state machine, push to a master branch, and wait until Cloud Formation creates a brand new state machine.
+2. Rename that same state machine, push to a master branch, and redeploy it.
+3. That’s it. You got your same state machine before.
 
-“Anyone who has never made a mistake has never tried anything new.”
-― Albert Einstein
+## “Anyone who has never made a mistake has never tried anything new.”
+## ― Albert Einstein
 

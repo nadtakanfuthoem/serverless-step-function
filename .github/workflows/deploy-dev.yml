@@ -32,6 +32,6 @@ jobs:
     - name: install npm package
       run: npm install
     - name: deploy to dev environment
-      run: serverless deploy -v --profile default
+      run: serverless deploy --profile default
     
 

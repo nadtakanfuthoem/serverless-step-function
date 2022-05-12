@@ -37,6 +37,6 @@ jobs:
       run: npm install serverless -g
 
     - name: deploy to dev environment
-      run: serverless deploy --profile default
+      run: serverless deploy --aws-profile default
     
 

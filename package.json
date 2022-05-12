@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nadtakanfuthoem/serverless-step-function#readme",
   "devDependencies": {
+    "serverless": "^3.17.0",
     "serverless-step-functions": "^3.7.0"
   }
 }

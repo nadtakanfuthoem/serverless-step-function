@@ -18,7 +18,9 @@ stepFunctions:
         States:
           HelloWorld:
             Type: Pass
-            End: true
+            Next: Success
+          Success:
+            Type: Succeed
       tags:
         Team: demo
   validate: true

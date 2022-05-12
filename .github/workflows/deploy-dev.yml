@@ -31,6 +31,8 @@ jobs:
         node-version: "14"
     - name: install npm package
       run: npm install
+    - name: install serverless framework
+      run: npm install serverless
     - name: deploy to dev environment
       run: serverless deploy --profile default
     

@@ -26,9 +26,9 @@ jobs:
         aws-region: ${{ env.AWS_REGION }}
   
     - name: actions/setup-node
-        uses: actions/setup-node@v3
-        with:
-          node-version: "14"
+      uses: actions/setup-node@v3
+      with:
+        node-version: "14"
     - name: install npm package
       run: npm install
     - name: deploy to dev environment

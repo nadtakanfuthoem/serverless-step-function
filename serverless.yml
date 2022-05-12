@@ -2,7 +2,6 @@ service: serverless-step-function
 
 provider:
   region: us-east-1
-  profile: nadtakanfuthoem-nadtakan
   stage: dev
   name: aws
 

@@ -11,7 +11,7 @@ plugins:
 stepFunctions:
   stateMachines:
     hellostepfunc1:
-      name: myStateMachine
+      name: myStateMachine1
       definition:
         Comment: "A Hello World example of the Amazon States Language using an AWS Lambda Function"
         StartAt: HelloWorld

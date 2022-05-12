@@ -1,0 +1,25 @@
+service: serverless-step-function
+
+provider:
+  region: us-east-1
+  profile: nadtakanfuthoem-nadtakan
+  stage: dev
+  name: aws
+
+plugins:
+  - serverless-step-functions
+
+stepFunctions:
+  stateMachines:
+    hellostepfunc1:
+      name: myStateMachine
+      definition:
+        Comment: "A Hello World example of the Amazon States Language using an AWS Lambda Function"
+        StartAt: HelloWorld
+        States:
+          HelloWorld:
+            Type: Pass
+            End: true
+      tags:
+        Team: demo
+  validate: true

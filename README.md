@@ -12,5 +12,6 @@ And, Finally, I am able to fix this, and here what I did.
 2. Rename that state machine, push to master, and redeploy it.
 3. That's it. You got your exact same state machine before.
 
-"Failure is the key to success; each mistake teaches us something."
+“Anyone who has never made a mistake has never tried anything new.”
+― Albert Einstein
 

@@ -29,10 +29,13 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: "14"
+
     - name: install npm package
       run: npm install
+
     - name: install serverless framework
-      run: npm install serverless
+      run: npm install serverless -g
+
     - name: deploy to dev environment
       run: serverless deploy --profile default
     
